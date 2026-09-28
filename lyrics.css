@@ -1,0 +1,71 @@
+/* Exercise 3 - Song Lyrics */
+
+#exercise3 {
+    background-color: chocolate;
+    padding: 20px;
+}
+
+
+/* Song Title */
+
+.song-title {
+    font-size: 14pt;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: khaki;
+}
+
+
+/* Artist */
+
+.artist {
+    font-size: 14pt;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: moccasin;
+}
+
+
+/* Album */
+
+.album {
+    font-size: 12pt;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: khaki;
+}
+
+
+/* Year */
+
+.year {
+    font-size: 12pt;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: ivory;
+}
+
+
+/* Verse */
+
+.verse {
+    font-size: 14pt;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: gold;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+
+/* Chorus */
+
+.chorus {
+    font-size: 14pt;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: gold;
+    margin-left: 4cm;
+    margin-right: 4cm;
+}

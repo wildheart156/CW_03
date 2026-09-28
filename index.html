@@ -2,48 +2,216 @@
 <html>
 
 <head>
-    <title>Page Title</title>
+    <title>CW 03</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lyrics.css">
+    <link rel="stylesheet" href="school.css">
 
 </head>
 
+<!--Exercise 2: Debugging CSS-->
 <body>
 <section id="exercise2">
     <h2>Exercise 2: Debugging CSS</h2>
-    <div class="your-class-name">
-        <h3>My Debugging Analysis</h3>
-        <!-- Mistake 1. No ; after color: red
-             Mistake 2. the margin has too many px. simplify to 20px 0}
-             Mistake 3. No ; after border-box-->
-    </div>
-    <pre><code>
-        <!-- body {
-    font-family: "Times New Roman";
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: justify;
-    background: ivory;
-    color: red;
-}
+    <div class="debugging">
+            <h3>My Debugging Analysis</h3>
+            
+            <p>Mistake 1. No ; after color: red</p>
+            
+            <p>Mistake 2. The margin has too many px. Simplify to 20px 0</p>
+            
+            <p>Mistake 3. No ; after border-box</p>
+            
+            </div>
+            
+            
+            <pre><code>
+            /* Original CSS */
+            
+            body {
+                font-family: "Times New Roman";
+                margin-left: 20%;
+                margin-right: 20%;
+                text-align: justify;
+                background: ivory;
+                color: red;
+            }
+            
+            h1, h2, h3 {
+                color: #ff0000;
+                font-size: 2.5em;
+                margin: 20px 0;
+            }
+            
+            .container {
+                width: 100%;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            
+            a {
+                color: #0000FF;
+                text-decoration: underline;
+            }
+                    </code></pre>
+            
+            </section>
+<!--Exercise 3: Song Lyrics-->
 
-h1, h2, h3 {
-    color: #ff0000;
-    font-size: 2.5em;
-    margin: 20px 0;
-}
+    <h1 class="song-title">Blinding Lights</h1>
 
-.container {
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-}
+    <h2 class="artist">The Weeknd</h2>
 
-a {
-    color: #0000FF;
-    text-decoration: underline;
-} -->
+    <h3 class="album">After Hours</h3>
+
+    <p class="year">2020</p>
+
+    <p class="verse">
+        I been tryna call, I been on my own for long enough<br>
+        Maybe you can show me how to love, maybe
+    </p>
+
+    <p class="chorus">
+        I'm going through a crisis, I thought I'd see the light<br>
+        But there's nothing but blinding lights
+    </p>
+
+    <p class="verse">
+        I'm looking for something that I can't see<br>
+        Maybe you can show it to me, maybe
+    </p>
+
+    <p class="chorus">
+        I'm going through a crisis, I thought I'd see the light<br>
+        But there's nothing but blinding lights
+    </p>
+
+
+<!--Exercise 5: My Weekly Schedule-->
+
     </code></pre>
 </section>
+        <section id="schedule">
+        
+            <h2>My Weekly Schedule</h2>
+        
+            <table>
+        
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+        
+                <tbody>
+        
+                    <tr>
+                        <th>9:00 AM</th>
+        
+                        <td class="lecture">
+                            Data Analysis
+                        </td>
+        
+                        <td class="study">
+                            Study Time
+                        </td>
+        
+                        <td class="lecture">
+                            Data Analysis
+                        </td>
+        
+                        <td class="study">
+                            Study Time
+                        </td>
+        
+                        <td class="lecture">
+                            Data Analysis
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <th>11:00 AM</th>
+        
+                        <td class="lab">
+                            Digital Imagery
+                        </td>
+        
+                        <td class="lecture">
+                            Mathematics
+                        </td>
+        
+                        <td class="lab">
+                            Digital Imagery
+                        </td>
+        
+                        <td class="lecture">
+                            Mathematics
+                        </td>
+        
+                        <td class="free">
+                            Free Time
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <th>1:00 PM</th>
+        
+                        <td class="lunch">
+                            Lunch
+                        </td>
+        
+                        <td class="lunch">
+                            Lunch
+                        </td>
+        
+                        <td class="lunch">
+                            Lunch
+                        </td>
+        
+                        <td class="lunch">
+                            Lunch
+                        </td>
+        
+                        <td class="lunch">
+                            Lunch
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <th>2:00 PM</th>
+        
+                        <td class="study">
+                            Web Development
+                        </td>
+        
+                        <td class="lecture">
+                            Mathematics
+                        </td>
+        
+                        <td class="study">
+                            Web Development
+                        </td>
+        
+                        <td class="lecture">
+                            Mathematics
+                        </td>
+        
+                        <td class="free">
+                            Free Time
+                        </td>
+                    </tr>
+        
+                </tbody>
+        
+            </table>
+        
+        </section>
+    
 
 </body>
 
