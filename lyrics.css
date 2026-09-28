@@ -5,9 +5,6 @@
     padding: 20px;
 }
 
-
-/* Song Title */
-
 .song-title {
     font-size: 14pt;
     font-family: Arial, sans-serif;
@@ -15,8 +12,6 @@
     color: khaki;
 }
 
-
-/* Artist */
 
 .artist {
     font-size: 14pt;
@@ -26,8 +21,6 @@
 }
 
 
-/* Album */
-
 .album {
     font-size: 12pt;
     font-family: Arial, sans-serif;
@@ -36,8 +29,6 @@
 }
 
 
-/* Year */
-
 .year {
     font-size: 12pt;
     font-family: Arial, sans-serif;
@@ -45,8 +36,6 @@
     color: ivory;
 }
 
-
-/* Verse */
 
 .verse {
     font-size: 14pt;
@@ -57,8 +46,6 @@
     margin-right: 2cm;
 }
 
-
-/* Chorus */
 
 .chorus {
     font-size: 14pt;

@@ -79,3 +79,38 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+
+/* UG 04 - Non-color cues */
+
+.lecture {
+    background-color: lightblue;
+    border-left: 5px solid darkblue;
+}
+
+.lab {
+    background-color: lightgreen;
+    border-left: 5px dashed darkgreen;
+}
+
+.study {
+    background-color: lightyellow;
+    border-left: 5px dotted goldenrod;
+}
+
+.lunch {
+    background-color: lightpink;
+    border-left: 5px double darkred;
+}
+
+.free {
+    background-color: lightgray;
+    border-left: 5px solid gray;
+}
+
+
+/* TEMPORARY UG 04 GRAYSCALE TEST 
+
+body {
+    filter: grayscale(100%);
+}*/

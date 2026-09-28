@@ -4,3 +4,26 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
 }
+
+
+/* UG 01 - Forensic Cascade Reconstruction */
+
+p {
+    color: red;
+}
+
+.cascade-test {
+    color: blue;
+}
+
+#special-text {
+    color: green;
+}
+
+/* UG 02 - Pixel Budget Under Constraint */
+.box-panel {
+    width: 420px;
+    padding: 20px;
+    border: 0;
+    box-sizing: border-box;
+}
